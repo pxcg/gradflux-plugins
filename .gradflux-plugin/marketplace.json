@@ -1,0 +1,10 @@
+{
+  "name": "gradflux-plugins",
+  "owner": {
+    "name": "GradFlux"
+  },
+  "metadata": {
+    "description": "GradFlux 官方可选插件与 Skills"
+  },
+  "plugins": []
+}
