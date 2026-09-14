@@ -1,0 +1,8 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "GradFlux Data：数据探索、SQL、统计分析、图表、离线看板与分析验证。",
+  "author": {
+    "name": "GradFlux"
+  }
+}

@@ -6,5 +6,15 @@
   "metadata": {
     "description": "GradFlux 官方可选插件与 Skills"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "data",
+      "source": "./plugins/data",
+      "version": "1.0.0",
+      "description": "GradFlux Data：数据分析、SQL、图表与离线看板",
+      "author": {
+        "name": "GradFlux"
+      }
+    }
+  ]
 }
