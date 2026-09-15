@@ -4,7 +4,7 @@ description: Create effective data visualizations with Python (matplotlib, plotl
 user-invocable: false
 ---
 
-> GradFlux adaptation: read [runtime and data handling](../../RUNTIME.md) before executing code or producing artifacts. This applies to all examples below.
+> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
 
 
 # Data Visualization Skill

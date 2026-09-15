@@ -4,7 +4,7 @@ description: QA an analysis before sharing -- methodology, accuracy, and bias ch
 argument-hint: "<analysis to review>"
 ---
 
-> GradFlux adaptation: read [runtime and data handling](../../RUNTIME.md) before executing code or producing artifacts. This applies to all examples below.
+> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
 
 
 # /validate-data - Validate Analysis Before Sharing

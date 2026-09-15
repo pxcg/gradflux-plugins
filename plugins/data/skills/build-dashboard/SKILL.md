@@ -4,7 +4,7 @@ description: Build an interactive HTML dashboard with charts, filters, and table
 argument-hint: "<description> [data source]"
 ---
 
-> GradFlux adaptation: read [runtime and data handling](../../RUNTIME.md) before executing code or producing artifacts. This applies to all examples below.
+> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
 
 
 # /build-dashboard - Build Interactive Dashboards

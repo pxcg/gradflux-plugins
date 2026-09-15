@@ -4,7 +4,7 @@ description: Create publication-quality visualizations with Python. Use when tur
 argument-hint: "<data source> [chart type]"
 ---
 
-> GradFlux adaptation: read [runtime and data handling](../../RUNTIME.md) before executing code or producing artifacts. This applies to all examples below.
+> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
 
 
 # /create-viz - Create Visualizations

@@ -15,7 +15,7 @@ description: >
   terminology, metrics definitions, and common query patterns.
 ---
 
-> GradFlux adaptation: read [runtime and data handling](../../RUNTIME.md) before executing code or producing artifacts. This applies to all examples below.
+> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
 
 
 # Data Context Extractor

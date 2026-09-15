@@ -4,7 +4,7 @@ description: Write optimized SQL for your dialect with best practices. Use when 
 argument-hint: "<description of what data you need>"
 ---
 
-> GradFlux adaptation: read [runtime and data handling](../../RUNTIME.md) before executing code or producing artifacts. This applies to all examples below.
+> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
 
 
 # /write-query - Write Optimized SQL

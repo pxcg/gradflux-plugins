@@ -4,7 +4,7 @@ description: Answer data questions -- from quick lookups to full analyses. Use w
 argument-hint: "<question>"
 ---
 
-> GradFlux adaptation: read [runtime and data handling](../../RUNTIME.md) before executing code or producing artifacts. This applies to all examples below.
+> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
 
 
 # /analyze - Answer Data Questions
