@@ -4,9 +4,6 @@ description: Answer data questions -- from quick lookups to full analyses. Use w
 argument-hint: "<question>"
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # /analyze - Answer Data Questions
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).

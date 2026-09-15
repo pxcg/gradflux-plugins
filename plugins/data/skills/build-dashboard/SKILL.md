@@ -4,9 +4,6 @@ description: Build an interactive HTML dashboard with charts, filters, and table
 argument-hint: "<description> [data source]"
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # /build-dashboard - Build Interactive Dashboards
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).

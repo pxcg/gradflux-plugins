@@ -4,9 +4,6 @@ description: Profile and explore a dataset to understand its shape, quality, and
 argument-hint: "<table or file>"
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # /explore-data - Profile and Explore a Dataset
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).

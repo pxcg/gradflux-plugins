@@ -4,9 +4,6 @@ description: Create publication-quality visualizations with Python. Use when tur
 argument-hint: "<data source> [chart type]"
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # /create-viz - Create Visualizations
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).

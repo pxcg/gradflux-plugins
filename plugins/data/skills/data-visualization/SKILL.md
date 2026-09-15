@@ -4,9 +4,6 @@ description: Create effective data visualizations with Python (matplotlib, plotl
 user-invocable: false
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # Data Visualization Skill
 
 Chart selection guidance, Python visualization code patterns, design principles, and accessibility considerations for creating effective data visualizations.

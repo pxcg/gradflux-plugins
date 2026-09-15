@@ -4,9 +4,6 @@ description: QA an analysis before sharing -- methodology, accuracy, and bias ch
 argument-hint: "<analysis to review>"
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # /validate-data - Validate Analysis Before Sharing
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).

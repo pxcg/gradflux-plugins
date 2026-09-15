@@ -10,7 +10,7 @@
     {
       "name": "data",
       "source": "./plugins/data",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "GradFlux Data：数据分析、SQL、图表与离线看板",
       "author": {
         "name": "GradFlux"

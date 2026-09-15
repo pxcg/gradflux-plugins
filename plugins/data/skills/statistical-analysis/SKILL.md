@@ -4,9 +4,6 @@ description: Apply statistical methods including descriptive stats, trend analys
 user-invocable: false
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # Statistical Analysis Skill
 
 Descriptive statistics, trend analysis, outlier detection, hypothesis testing, and guidance on when to be cautious about statistical claims.

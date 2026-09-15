@@ -15,9 +15,6 @@ description: >
   terminology, metrics definitions, and common query patterns.
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # Data Context Extractor
 
 A specialized data-domain skill that extracts company-specific data knowledge from analysts and generates tailored data analysis skills.

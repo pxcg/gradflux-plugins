@@ -4,9 +4,6 @@ description: Write correct, performant SQL across all major data warehouse diale
 user-invocable: false
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # SQL Queries Skill
 
 Write correct, performant, readable SQL across all major data warehouse dialects.

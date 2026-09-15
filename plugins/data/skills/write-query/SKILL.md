@@ -4,9 +4,6 @@ description: Write optimized SQL for your dialect with best practices. Use when 
 argument-hint: "<description of what data you need>"
 ---
 
-> Before running code or creating artifacts, read [runtime and data handling](../../RUNTIME.md).
-
-
 # /write-query - Write Optimized SQL
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
