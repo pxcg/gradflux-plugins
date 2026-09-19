@@ -17,6 +17,6 @@ GradFlux 官方可选数据分析插件：探索数据、编写 SQL、统计分�
 | validate-data | 方法、口径、计算、图表与交付检查 |
 | data-context-extractor | 提炼企业数据口径、实体及查询知识，保存为项目 Skill |
 
-代码执行需要支持 `data` 能力的 GradFlux 工作环境（1.1 起），首次使用前按 [运行指引](RUNTIME.md) 查询；不复制 Python 到插件、不向公共环境安装包。支持 CSV、JSON、XLSX 数据分析，不承诺 XLS 或 Excel 公式重算。离线看板使用内嵌 Plotly；静态输出使用 Matplotlib。
+代码执行使用当前系统、项目或虚拟环境中的 Python 与实际可用的依赖，按 [运行指引](RUNTIME.md) 检查所需库；不要求固定的 GradFlux 工作环境或版本。支持 CSV、JSON、XLSX 数据分析，不承诺 XLS 或 Excel 公式重算。离线看板使用内嵌 Plotly；静态输出使用 Matplotlib。
 
 [数据连接](CONNECTORS.md)由用户配置，插件不默认安装外部 MCP。没有数据库连接时也能处理本地数据。`data-context-extractor` 只负责数据领域知识，不替代通用 `skill-creator`；项目知识保存到 `.gradflux/skills/<name>/`。
