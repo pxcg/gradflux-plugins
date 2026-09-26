@@ -1,0 +1,32 @@
+name: Review Hermes MCP changes
+on:
+  schedule:
+    - cron: '23 8 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: NousResearch/hermes-agent
+          path: upstream
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Produce review evidence only
+        run: |
+          mkdir -p review
+          git -C upstream rev-parse HEAD > review/hermes-head.txt
+          git -C upstream diff "$(cat mcp/hermes-ref.txt)" HEAD -- optional-mcps/ > review/hermes-mcp.diff
+          if test -s review/hermes-mcp.diff; then
+            echo 'Hermes MCP entries changed. Review the artifact against vendor docs before editing mcp/curated.json.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'No Hermes MCP directory changes.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hermes-mcp-review
+          path: review/

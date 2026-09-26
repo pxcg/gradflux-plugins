@@ -1,7 +1,8 @@
-name: Sync MCP directory
+name: Publish curated MCP directory
 on:
-  schedule:
-    - cron: '23 * * * *'
+  push:
+    branches: [main]
+    paths: ['mcp/curated.json', '.github/workflows/publish-mcp.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -11,22 +12,18 @@ concurrency:
   group: mcp-pages
   cancel-in-progress: false
 jobs:
-  sync:
+  publish:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-      - run: node --test mcp/sync.test.mjs
-      - run: node mcp/sync.mjs
-      - name: Prepare public directory
+      - name: Prepare reviewed directory
         run: |
+          node -e 'JSON.parse(require("fs").readFileSync("mcp/curated.json", "utf8"))'
           mkdir -p public/mcp
-          cp mcp/catalog.json.gz public/mcp/
+          cp mcp/curated.json public/mcp/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

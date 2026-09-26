@@ -1,0 +1,65 @@
+{
+  "updatedAt": "2026-09-26T10:47:01.394971Z",
+  "items": [
+    {
+      "id": "notion",
+      "revision": 1,
+      "name": "Notion",
+      "publisher": "Notion",
+      "description": "搜索、读取和更新 Notion 工作区中的页面与数据库。",
+      "url": "https://mcp.notion.com/mcp",
+      "documentationUrl": "https://developers.notion.com/guides/mcp/build-mcp-client",
+      "authentication": "oauth",
+      "iconUrl": "https://developers.notion.com/mintlify-assets/_mintlify/favicons/notion-demo/1PaJq9z3waub4TpE/_generated/favicon/android-chrome-192x192.png",
+      "recommended": true
+    },
+    {
+      "id": "linear",
+      "revision": 1,
+      "name": "Linear",
+      "publisher": "Linear",
+      "description": "查找、创建和更新议题、项目及评论。",
+      "url": "https://mcp.linear.app/mcp",
+      "documentationUrl": "https://linear.app/docs/mcp",
+      "authentication": "oauth",
+      "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@16.0.0/icons/linear.svg",
+      "recommended": true
+    },
+    {
+      "id": "sentry",
+      "revision": 1,
+      "name": "Sentry",
+      "publisher": "Sentry",
+      "description": "查看错误、堆栈和性能信息，协助排查应用问题。",
+      "url": "https://mcp.sentry.dev/mcp",
+      "documentationUrl": "https://mcp.sentry.dev/",
+      "authentication": "oauth",
+      "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@16.0.0/icons/sentry.svg",
+      "recommended": true
+    },
+    {
+      "id": "context7",
+      "revision": 1,
+      "name": "Context7",
+      "publisher": "Upstash",
+      "description": "获取软件库的最新文档和代码示例。",
+      "url": "https://mcp.context7.com/mcp",
+      "documentationUrl": "https://context7.com/docs/resources/all-clients",
+      "authentication": "none",
+      "iconUrl": "https://context7.com/favicon.ico",
+      "recommended": false
+    },
+    {
+      "id": "deepwiki",
+      "revision": 1,
+      "name": "DeepWiki",
+      "publisher": "Cognition",
+      "description": "查询公开 GitHub 仓库的文档与代码知识。",
+      "url": "https://mcp.deepwiki.com/mcp",
+      "documentationUrl": "https://docs.devin.ai/work-with-devin/deepwiki-mcp",
+      "authentication": "none",
+      "iconUrl": "https://deepwiki.com/icon.png?d5f24a100c40bf32",
+      "recommended": false
+    }
+  ]
+}
