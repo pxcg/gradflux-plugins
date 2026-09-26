@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+mcp/catalog.json.tmp
+mcp/catalog.json
+mcp/catalog.json.gz
+mcp/catalog.json.gz.tmp

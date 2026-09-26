@@ -12,7 +12,7 @@ https://github.com/pxcg/gradflux-plugins.git
 
 当前可选插件为 [GradFlux Data](plugins/data/README.md)（`data`，1.0.2）：10 个数据分析 Skill。随包 `gradflux-skills` 继续由应用交付，不在这里重复安装。GitHub 插件尚未发布。
 
-测试期间仓库保持私有，访问需 GitHub 授权与本机 Git 凭据；公开后同一 HTTPS 地址可匿名使用，无须更改市场地址。
+公开仓库可通过同一 HTTPS 地址匿名访问。MCP 自动同步目录单独维护在 [mcp/](mcp/README.md)，不与插件清单混合。
 
 ## 插件组织
 
