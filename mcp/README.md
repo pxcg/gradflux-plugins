@@ -1,15 +1,15 @@
 # Curated MCP directory
 
 `curated.json` is the single reviewed source served to GradFlux Discover.
-It contains public vendor-hosted Streamable HTTP endpoints, not executable
-plugins or a mirror of the entire MCP Registry. GF remains responsible for
+It contains reviewed Streamable HTTP and local stdio launch configurations,
+not executable plugin payloads or a mirror of the entire MCP Registry. GF remains responsible for
 configuration, credentials, authorization and connections. No vendor tools run
 while publishing or reviewing the directory.
 
 ## Update and publish
 
 Edit the catalog through a reviewed commit. Keep `id` stable, increment `revision`
-when an endpoint or authentication requirement changes, and update `updatedAt`
+when launch configuration or authentication requirements change, and update `updatedAt`
 when the directory is reviewed. A revision is a **configuration revision**, not
 a vendor server version. `authentication` is setup guidance, never evidence of a
 successful sign-in. The documented account/plan limits still apply.
@@ -43,8 +43,7 @@ Each entry's `documentationUrl` identifies its current vendor contract:
   Hermes's older generic DCR assumption is insufficient for GradFlux.
 - Figma is deferred: Hermes documents a client-name workaround; GradFlux does not
   impersonate another product. Gmail/platform gateways are not public endpoints
-  established by this review. Local server packages remain manually configurable
-  in GF, but are outside this first curated remote catalog.
+  established by this review. Other local server packages remain manually configurable in GF.
 
 Names, descriptions and publisher labels are display metadata, not a verified
 badge or an availability guarantee. Recommendations are editorial selection.
@@ -58,3 +57,18 @@ Notion, Context7 and DeepWiki icon URLs come from their public website icon link
 Linear and Sentry use the mature Simple Icons marks (as Hermes does), hosted by
 Simple Icons; brands remain their owners' trademarks. No private hostname is
 sent to a favicon lookup service. Service and icon usage terms remain applicable.
+
+## Local Draw.io entry (2026-10-11)
+
+Next AI Draw.io uses the official `@next-ai-drawio/mcp-server@0.3.0` package through
+`npx -y`, with `disconnectOnCancel: true`. It needs Node.js/npm and an active browser
+canvas for image export; each server process owns one current document. Cancel
+terminates the service; reconnect and load a saved diagram to continue. No account
+or separate plugin is required. The icon is the upstream repository's favicon.
+
+The catalog now represents every connection under `config`, with explicit `http`
+or `stdio` type. Publish it together with the GF desktop version supporting this
+contract; existing installed HTTP configurations are unchanged. No legacy catalog
+conversion or parallel catalog is provided. Local validation covers drawing,
+manual/tool edits, export and process cancellation; it does not certify unattended
+or concurrent multi-document work. The catalog itself does not launch any server.
