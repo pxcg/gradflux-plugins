@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T00:00:00Z",
+  "updatedAt": "2026-10-11T07:19:30.085444Z",
   "items": [
     {
       "id": "notion",
@@ -81,7 +81,7 @@
       "revision": 1,
       "name": "Next AI Draw.io",
       "publisher": "Dayuan Jiang",
-      "description": "在浏览器中创建和修改可编辑图表，导出 Draw.io、PNG 和 SVG。需要本机 Node.js 和活跃的浏览器画布；每个连接操作一份图。",
+      "description": "通过自然语言创建和编辑 Draw.io 图表，在浏览器中实时预览，并导出 Draw.io、PNG 和 SVG 文件。",
       "config": {
         "type": "stdio",
         "command": "npx",
